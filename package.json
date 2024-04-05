@@ -1,0 +1,37 @@
+{
+   "name": "@roisuladib/utils",
+   "version": "1.0.0",
+   "description": "Utilities for Typescript",
+   "main": "./dist/index.js",
+   "module": "./dist/index.mjs",
+   "types": "./dist/index.d.ts",
+   "files": [
+     "dist"
+   ],
+   "devDependencies": {
+      "@types/jest": "^29.5.12",
+      "jest": "^29.7.0",
+      "ts-jest": "^29.1.2",
+      "ts-node": "^10.9.2",
+      "tsup": "^8.0.2",
+      "typescript": "^5.4.4"
+   },
+   "scripts": {
+     "build": "tsup",
+     "test": "jest"
+   },
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/roisuladib/utils.git"
+   },
+   "keywords": [
+     "demo",
+     "typescript",
+     "npm"
+   ],
+   "author": "roisuladib",
+   "license": "ISC",
+   "publishConfig": {
+      "access": "public"
+    }
+ }
